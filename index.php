@@ -3,7 +3,7 @@
   session_name("teste");
   session_start();
 // variaveis superglobais que possibilitam o uso das mesmas em todas as partes do codigo e tem funcoes importantes para os equipamentos
-  $_SESSION['formulario'] = 1;
+  $_SESSION['formulario'] = 0;
   $_SESSION['checkbox'] = false;
   $_SESSION['formulario_localidade'] = 1;
   $_SESSION['ID_tipo'] = 0;

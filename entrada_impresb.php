@@ -1,5 +1,6 @@
 <?php
-
+  session_name("teste");
+  session_start();
 //conexao com o banco
 $conexao = mysqli_connect('localhost', 'root', '', 'impresb');
 
